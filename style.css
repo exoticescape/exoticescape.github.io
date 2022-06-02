@@ -92,6 +92,10 @@ html {
     font-size: 18pt;
 }
 
+#company img {
+    width: 100%;
+}
+
 #ingredients {
     display: flex;
     flex-direction: column;
