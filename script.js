@@ -1,10 +1,5 @@
 document.addEventListener("load", function() {
     let headblock = document.getElementById("headblock");
-    // const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    // const d = new Date();
-    // let currentMonth = d.getMonth();
-    // let nextMonth = (currentMonth+1)%12;
-    console.log(document.getElementById("dealbody").innerHTML); //month[currentMonth] + " deal! Use code " + month[currentMonth] + currentMonth + " in store to get 25% off your first smoothie before " + month[nextMonth] + "!";
 });
 
 
