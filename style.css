@@ -59,8 +59,7 @@ html {
 }
 
 #point img.pointimg {
-    width: 175px;
-    height: 175px;
+    width: 65%;
 }
 
 #point p.pointheading {
