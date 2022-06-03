@@ -23,6 +23,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
-function dismissdeal() {
-    document.getElementById("deal").remove();
+function barclick() {
+    let line = document.getElementById("line");
+    line.classList.remove("noclick");
+    line.classList.add("barclicked");
 }
