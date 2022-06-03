@@ -39,6 +39,9 @@ html {
     width: 400px;
     height: 12px;
     transform: translateY(-4500%);
+}
+
+#headblock span#line.noclick {
     animation: fadeinright 1s;
 }
 
@@ -208,6 +211,21 @@ html {
 
 #deal #dismissbutton {
     cursor: pointer;
+}
+
+.barclicked {
+    animation: colorshift 1s infinite;
+}
+
+@keyframes colorshift {
+    0% {background-color: rgb(250, 0, 250);}
+    25% {background-color: rgb(149, 1, 255);}
+    37.5% {background-color: rgb(0, 0, 255);}
+    50% {background-color: rgb(0, 255, 0);}
+    62.5% {background-color: rgb(255, 255, 0);}
+    75% {background-color: rgb(255, 166, 0);}
+    87.5% {background-color: rgb(255, 0, 0);}
+    100% {background-color: rgb(250, 0, 250);}
 }
 
 @keyframes fadedown {
