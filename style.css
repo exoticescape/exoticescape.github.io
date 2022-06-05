@@ -350,8 +350,17 @@ html {
 }
 
 @keyframes fadeinright {
-    0% {transform: translateX(-100%) translateY(-2300%);
+    0% {transform: translateX(-100%) translateY(-4500%);
         opacity: 0%;}
-    100% {transform: translateX(0) translateY(-2300%);
+    100% {transform: translateX(0) translateY(-4500%);
           opacity: 100%;}
+}
+
+@media screen and (max-width: 775px) {
+    @keyframes fadeinright {
+        0% {transform: translateX(-100%) translateY(-2300%);
+            opacity: 0%;}
+        100% {transform: translateX(0) translateY(-2300%);
+              opacity: 100%;}
+    }
 }
