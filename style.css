@@ -147,13 +147,6 @@ html {
     }
 }
 
-@media screen and (max-width: 600px) {
-    #company {
-        padding: 0;
-        padding-top: 15px;
-    }
-}
-
 #company div#text {
     padding: 30px 50px;
     margin-left: 30px;
@@ -176,6 +169,28 @@ html {
     width: 100%;
     align-items: center;
     margin: 50px 0px;
+}
+
+@media screen and (max-width: 869px) {
+    #company {
+        padding: 0;
+        padding-top: 15px;
+    }
+
+    #company div#text {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    #company div#text h1 {
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    #company div#text p {
+        text-align: start;
+
+    }
 }
 
 #ingredients h1 {
@@ -232,7 +247,7 @@ html {
     text-justify: inter-word;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 869px) {
     #promo {
         flex-direction: column;
         padding-right: 100px;
@@ -252,6 +267,12 @@ html {
         width: auto;
         text-align: center;
         margin-left: 70px;
+    }
+
+    #promo p#promobody {
+        text-align: left;
+        margin-left: -10px;
+        margin-right: -60px;
     }
 }
 
@@ -288,6 +309,12 @@ html {
     #robots div#bar {
         width: 0;
         height: 0;
+    }
+
+    #robots p#robotsbody {
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 
