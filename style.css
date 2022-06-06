@@ -40,25 +40,6 @@ html {
     }
 }
 
-@media screen and (max-width: 600px) {
-    #headblock img#bigpic {
-        display: none;
-    }
-
-    #headblock img#littlepic {
-        display: block;
-    }
-
-    #headblock span#line {
-        display: none;
-    }
-
-    #headblock h1 {
-        transform: translateY(-100%);
-        text-align: center;
-    }
-}
-
 #headblock h1 {
     font-size: 6rem;
     animation: fadedown 1.3s;
@@ -91,6 +72,25 @@ html {
 
 #headblock span#line.noclick {
     animation: fadeinright 1s;
+}
+
+@media screen and (max-width: 600px) {
+    #headblock img#bigpic {
+        display: none;
+    }
+
+    #headblock img#littlepic {
+        display: block;
+    }
+
+    #headblock span#line {
+        display: none;
+    }
+
+    #headblock h1 {
+        transform: translateY(-100%);
+        text-align: center;
+    }
 }
 
 #threepoints {
