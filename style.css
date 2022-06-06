@@ -50,7 +50,7 @@ html {
     }
 
     #headblock span#line {
-        transform: translateY(-2200%);
+        display: none;
     }
 
     #headblock h1 {
